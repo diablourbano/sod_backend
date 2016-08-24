@@ -1,0 +1,439 @@
+[
+  {
+    "date": "1980-01-01",
+    "incidents": 50,
+    "casualties": 750,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   },
+                   {
+                     "country": "CAN",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1981-01-01",
+    "incidents": 30,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1982-01-01",
+    "incidents": 150,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1983-01-01",
+    "incidents": 85,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1984-01-01",
+    "incidents": 46,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1985-01-01",
+    "incidents": 240,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1986-01-01",
+    "incidents": 10,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1987-01-01",
+    "incidents": 320,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1988-01-01",
+    "incidents": 58,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1989-01-01",
+    "incidents": 0,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1990-01-01",
+    "incidents": 5,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1991-01-01",
+    "incidents": 320,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1992-01-01",
+    "incidents": 50,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1993-01-01",
+    "incidents": 30,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1994-01-01",
+    "incidents": 35,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1995-01-01",
+    "incidents": 150,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1996-01-01",
+    "incidents": 150,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1997-01-01",
+    "incidents": 150,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1998-01-01",
+    "incidents": 52,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1999-01-01",
+    "incidents": 260,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "2000-01-01",
+    "incidents": 46,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "2001-01-01",
+    "incidents": 84,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "2002-01-01",
+    "incidents": 147,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "2003-01-01",
+    "incidents": 365,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "2004-01-01",
+    "incidents": 12,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "2005-01-01",
+    "incidents": 98,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "2006-01-01",
+    "incidents": 74,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "2007-01-01",
+    "incidents": 70,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "2008-01-01",
+    "incidents": 46,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "2009-01-01",
+    "incidents": 156,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "2010-01-01",
+    "incidents": 115,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "2011-01-01",
+    "incidents": 32,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "2012-01-01",
+    "incidents": 75,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "2013-01-01",
+    "incidents": 105,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "2014-01-01",
+    "incidents": 5,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "2015-01-01",
+    "incidents": 200,
+    "casualties": 350,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  }
+]

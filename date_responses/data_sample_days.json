@@ -1,0 +1,86 @@
+[
+  {
+    "date": "1980-01-01",
+    "incidents": 200,
+    "casualties": 175,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1980-01-02",
+    "incidents": 200,
+    "casualties": 175,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1980-01-03",
+    "incidents": 200,
+    "casualties": 175,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1980-01-04",
+    "incidents": 200,
+    "casualties": 175,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1980-01-05",
+    "incidents": 200,
+    "casualties": 175,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1980-01-06",
+    "incidents": 200,
+    "casualties": 175,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  },
+  {
+    "date": "1980-01-07",
+    "incidents": 200,
+    "casualties": 175,
+    "countries": [
+                   {
+                     "country": "FXX",
+                     "casualties": 100,
+                     "incidents": 100
+                   }
+                 ]
+  }
+]
