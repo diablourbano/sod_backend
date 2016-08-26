@@ -20,18 +20,17 @@ module Sod
     end
 
     get '/' do
-      JSON.parse(SodData.new.years_overview)
+      SodData.new.years_overview
     end
 
     route_param :year do
       get do
-        JSON.parse(SodData.new.overview_for([params[:year]]))
+        SodData.new.overview_for([params[:year]])
       end
 
       route_param :month do
         get do
-
-          JSON.parse(SodData.new.overview_for([params[:year], params[:month]]))
+          SodData.new.overview_for([params[:year], params[:month]])
         end
       end
     end

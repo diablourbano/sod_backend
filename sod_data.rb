@@ -1,7 +1,9 @@
+require './models/incident.rb'
+
 class SodData
 
   def years_overview
-    File.read('./date_responses/data_sample_years.json')
+    Incident.select_data_for('year')
   end
 
   def overview_for(dateToSearch)

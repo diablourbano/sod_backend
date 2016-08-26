@@ -9,4 +9,5 @@ gem 'rake', '10.4.2'
 group :development do
   gem 'rerun'
   gem 'dotenv', '2.1.1'
+  gem 'byebug'
 end

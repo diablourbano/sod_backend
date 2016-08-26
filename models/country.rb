@@ -17,4 +17,8 @@ class Country < Sequel::Model
   def self.with_code(code)
     where('code = ?', code)
   end
+
+  def self.by_name(name)
+    where('name = ?', name)
+  end
 end
