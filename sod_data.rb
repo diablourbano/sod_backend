@@ -3,14 +3,14 @@ require './models/incident.rb'
 class SodData
 
   def years_overview
-    Incident.select_data_for('year')
+    Incident.years_overview('year')
   end
 
   def overview_for(dateToSearch)
     if dateToSearch.size == 1
-      File.read('./date_responses/data_sample_months.json')
+      Incident.year_overview('month', dateToSearch)
     else
-      File.read('./date_responses/data_sample_days.json')
+      Incident.month_overview('day', dateToSearch)
     end
   end
 end
