@@ -27,7 +27,6 @@ namespace :import_data do
     wound = 6
     
     CSV.foreach('./db/gdt.csv') do |row|
-      break if row[year].to_i == 1972
       # first, let's import country
       if Country.exist?(row[country_code])
         country = Country.with_code(row[country_code].to_i)
