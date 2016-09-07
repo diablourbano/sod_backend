@@ -19,7 +19,7 @@ module Sod
 
     use Rack::Cors do
       allow do
-        origins ENV['ORIGINS_CORS']'http://sod.quimera.suse'
+        origins ENV['ORIGINS']
         resource '*', headers: :any, methods: :get
       end
     end
