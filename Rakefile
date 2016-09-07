@@ -1,6 +1,3 @@
-require 'dotenv'
-Dotenv.load
-
 require 'sequel'
 
 task default: ['db:migrations:apply', :test]

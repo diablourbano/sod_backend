@@ -1,6 +1,4 @@
 require 'sequel'
-require 'dotenv'
-Dotenv.load
 
 class DbConfig
 
