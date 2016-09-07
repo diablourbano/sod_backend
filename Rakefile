@@ -70,7 +70,7 @@ end
     db = Sequel.connect(DATABASE_CONNECTION, :test => true)
 
     puts '>> Dumping schema...'
-    `pg_dump -s #{DATABASE} > db/schema.sql`
+    `pg_dump -s #{DATABASE_CONNECTION} > db/schema.sql`
     puts '>> All done.'
   end
 
