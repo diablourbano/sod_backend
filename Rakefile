@@ -1,6 +1,4 @@
-rack_env = ENV['RACK_ENV'] || 'dev'
-
-if rack_env == 'dev'
+if ENV['RACK_ENV'] == 'development'
   require 'dotenv'
   Dotenv.load
 end
@@ -10,7 +8,7 @@ require 'sequel'
 task default: ['db:migrations:apply', :test]
 
 namespace :db do
-  if rack_env == 'dev'
+  if ENV['RACK_ENV'] == 'development'
     DATABASE_CONNECTION =  {
                   adapter: ENV['ADAPTER'],
                   host: 'localhost',

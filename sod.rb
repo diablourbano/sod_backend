@@ -1,3 +1,8 @@
+if ENV['RACK_ENV'] == 'development'
+  require 'dotenv'
+  Dotenv.load
+end
+
 require 'grape'
 require 'rack/cors'
 
@@ -14,7 +19,7 @@ module Sod
 
     use Rack::Cors do
       allow do
-        origins 'http://sod.quimera.suse'
+        origins ENV['ORIGINS_CORS']'http://sod.quimera.suse'
         resource '*', headers: :any, methods: :get
       end
     end

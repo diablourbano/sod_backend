@@ -1,5 +1,4 @@
-
-if ENV['RACK_ENV'].nil? || ENV['RACK_ENV'] == 'dev'
+if ENV['RACK_ENV'] == 'development'
   require 'dotenv'
   Dotenv.load
 end
@@ -12,9 +11,7 @@ class DbConfig
     Sequel::Model.plugin :timestamps
     Sequel::Model.plugin :validation_helpers
 
-  rack_env = ENV['RACK_ENV'] || 'dev'
-
-  if rack_env == 'dev'
+  if ENV['RACK_ENV'] == 'development'
       database = {
                    adapter: ENV['ADAPTER'],
                    host: 'localhost',

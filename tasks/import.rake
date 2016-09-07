@@ -1,6 +1,4 @@
-rack_env = ENV['RACK_ENV'] || 'dev'
-
-if rack_env == 'dev'
+if ENV['RACK_ENV'] == 'development'
   require 'dotenv'
   Dotenv.load
 end
@@ -13,10 +11,10 @@ require_relative './../models/incident.rb'
 
 namespace :import_data do
 
-  if rack_env == 'dev'
+  if ENV['RACK_ENV'] == 'development'
     DATABASE_CONNECTION =  {
                   adapter: ENV['ADAPTER'],
-                  host: ENV['host'],
+                  host: ENV['HOST'],
                   port: ENV['PORT'],
                   database: ENV['DATABASE'],
                   username: ENV['USERNAME'],
