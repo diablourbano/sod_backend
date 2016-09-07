@@ -1,21 +1,32 @@
+rack_env = ENV['RACK_ENV'] || 'dev'
+
+if rack_env == 'dev'
+  require 'dotenv'
+  Dotenv.load
+end
+
 require 'sequel'
 
 task default: ['db:migrations:apply', :test]
 
 namespace :db do
+  if rack_env == 'dev'
+    DATABASE_CONNECTION =  {
+                  adapter: ENV['ADAPTER'],
+                  host: 'localhost',
+                  port: ENV['PORT'],
+                  database: ENV['DATABASE'],
+                  username: ENV['USERNAME'],
+                  password: ENV['PASSWORD'],
+                  encoding: 'utf8'
+                }
 
-  DATABASE_CONNECTION =  {
-                adapter: ENV['ADAPTER'],
-                host: ENV['HOST'],
-                port: ENV['PORT'],
-                database: ENV['DATABASE'],
-                username: ENV['USERNAME'],
-                password: ENV['PASSWORD'],
-                encoding: 'utf8'
-              }
+    DATABASE = ENV['DATABASE']
+    puts ">> Running task on database #{ DATABASE }"
 
-  DATABASE = ENV['DATABASE']
-  puts ">> Running task on database #{ DATABASE }"
+  else
+    DATABASE_CONNECTION = ENV['DATABASE_URL']
+  end
 
   namespace :migrations do
     desc 'Creates a new migration in db/migrations'

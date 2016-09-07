@@ -6,15 +6,20 @@ require_relative './../models/incident.rb'
 
 namespace :import_data do
 
-  DATABASE_CONNECTION =  {
-                adapter: ENV['ADAPTER'],
-                host: ENV['host'],
-                port: ENV['PORT'],
-                database: ENV['DATABASE'],
-                username: ENV['USERNAME'],
-                password: ENV['PASSWORD'],
-                encoding: 'utf8'
-              }
+  if rack_env == 'dev'
+    DATABASE_CONNECTION =  {
+                  adapter: ENV['ADAPTER'],
+                  host: ENV['host'],
+                  port: ENV['PORT'],
+                  database: ENV['DATABASE'],
+                  username: ENV['USERNAME'],
+                  password: ENV['PASSWORD'],
+                  encoding: 'utf8'
+                }
+
+  else
+    DATABASE_CONNECTION = ENV['DATABASE_URL']
+  end
 
   desc 'import data from gdt in csv format'
   task :csv do
