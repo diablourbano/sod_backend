@@ -1,6 +1,5 @@
-rack_env = ENV['RACK_ENV'] || 'dev'
 
-if rack_env == 'dev'
+if ENV['RACK_ENV'].nil? || ENV['RACK_ENV'] == 'dev'
   require 'dotenv'
   Dotenv.load
 end
@@ -12,6 +11,8 @@ class DbConfig
   def self.connect
     Sequel::Model.plugin :timestamps
     Sequel::Model.plugin :validation_helpers
+
+  rack_env = ENV['RACK_ENV'] || 'dev'
 
   if rack_env == 'dev'
       database = {
