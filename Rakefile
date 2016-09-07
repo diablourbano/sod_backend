@@ -6,7 +6,7 @@ namespace :db do
 
   DATABASE_CONNECTION =  {
                 adapter: ENV['ADAPTER'],
-                host: 'localhost',
+                host: ENV['HOST'],
                 port: ENV['PORT'],
                 database: ENV['DATABASE'],
                 username: ENV['USERNAME'],

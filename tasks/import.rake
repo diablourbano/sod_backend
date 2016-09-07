@@ -8,7 +8,7 @@ namespace :import_data do
 
   DATABASE_CONNECTION =  {
                 adapter: ENV['ADAPTER'],
-                host: 'localhost',
+                host: ENV['host'],
                 port: ENV['PORT'],
                 database: ENV['DATABASE'],
                 username: ENV['USERNAME'],
