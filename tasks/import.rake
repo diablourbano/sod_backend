@@ -1,3 +1,10 @@
+rack_env = ENV['RACK_ENV'] || 'dev'
+
+if rack_env == 'dev'
+  require 'dotenv'
+  Dotenv.load
+end
+
 require 'csv'
 require 'date'
 
